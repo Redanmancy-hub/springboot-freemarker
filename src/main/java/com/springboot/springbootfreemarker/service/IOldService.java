@@ -6,4 +6,5 @@ import java.util.List;
 
 public interface IOldService {
     List<Old> queryByIds(List<Long> selectedIds);
+
 }
